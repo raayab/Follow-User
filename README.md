@@ -20,7 +20,8 @@ followings(id,user_id,following_user_id)
 "Follow" (orange) - if the logged in user is not currently following the corresponding user.
 </br>
 "Following" (green) - If the user already follows the corresponding user.</br>
-"Unfollow" (red) - When hovering on "Following"</br>
+"Unfollow" (red) - When hovering on "Following":</br>
+![Unfollow](Unfollow.JPG)
 
 
 When the button is clicked,store the new state in the DB.
