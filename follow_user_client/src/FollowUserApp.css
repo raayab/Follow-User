@@ -1,0 +1,28 @@
+.UserPage {
+  text-align: center;
+}
+
+.LoginPage {
+  text-align: center;
+}
+.Following {
+  background-color: green;
+  
+}
+.Follow {
+  background-color: orange;
+}
+.Unfollow {
+  background-color: red;
+}
+.row {
+  padding: 10px;
+}
+.users_list {
+  margin-right: auto;
+  margin-left: auto;
+  width: 70%;
+}
+button {
+  width: 100px;
+}
