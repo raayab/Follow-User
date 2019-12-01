@@ -1,19 +1,19 @@
 # Follow-User
 
 A client/server app that shows different content if the user is logged in or out.
-</br>
-if user is logged out (not saved to localstorage),render:
+
+If user is logged out (not saved to localstorage),render:
 "Must be signed in"
+for example:
+![loggedOut](loggedOut.JPG)
 
-if logged in,render list that includes all users. for example:
-
+If logged in,render list that includes all users. for example:
+![loggedIn](loggedIn.JPG)
 
 ## Tables in DB:
 
 users(id,name,group_id)
-
 groups(id,name)
-
 followings(id,user_id,following_user_id)
 
 ## Follow/Unfollow button logic:
